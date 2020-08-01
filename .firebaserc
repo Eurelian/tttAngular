@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tic-tac-toe-angular-8428d": {
+      "hosting": {
+        "ttt": [
+          "tic-tac-toe-angular-8428d"
+        ]
+      }
+    }
+  }
+}

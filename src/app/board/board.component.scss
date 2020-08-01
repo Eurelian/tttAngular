@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+}
+
+app-square {
+  border: 1px grey solid;
+  height: 200px;
+}
+
+@media screen and( max-width: 768px) {
+  main {
+    grid-template-columns: 100px 100px 100px;
+  }
+  app-square {
+    height: 100px;
+  }
+}
